@@ -6,6 +6,15 @@
 
 ## Weather Service (laravel 5.5)
 
+Please singup into https://openweathermap.org/ and get the api key 
+
+## .env
+Add this at the end of this file:
+WEATHER_ENDPOINT=https://api.openweathermap.org/data/2.5/weather?zip=%s&appid=%s
+WEATHER_MAP_KEY=<Replace iwth api key>
+
+WEATHER_MAP_CALLS_PER_MINUTE=15
+
 ## Uses: 
 
 <code>
