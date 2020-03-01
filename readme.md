@@ -15,6 +15,19 @@ WEATHER_MAP_KEY=<Replace iwth api key>
 
 WEATHER_MAP_CALLS_PER_MINUTE=15
 
+## How To Run
+
+Clone the repository.
+
+Install dependencies:
+<code>
+$ composer install
+</code>
+
+Run the built-in web server:
+<code>
+$ php artisan serve
+</code>
 ## Uses: 
 
 <code>
